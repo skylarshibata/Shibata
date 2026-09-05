@@ -1,0 +1,228 @@
+#title {
+  background-color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  color:black;
+  font-family: 'Archivo', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2 {
+  color:#043541;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  color:#024D60;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+}
+
+h4 {
+  color:#024D60;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+p{
+  font-family: 'Archivo', sans-serif;
+  color: #496c75;
+}
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://www.cdc.gov/ncezid/media/images/Pathogen-Image-2.jpg");
+  background-size:cover;
+  background-position: center;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Chivo', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color:black;
+}
+
+.navbar-item {
+  font-family: 'Archivo', sans-serif;
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+.navbar-link {
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  font-family: 'Archivo', sans-serif;
+  background-color:black;
+  color:white;
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+    transform: rotate(10deg);
+    position:absolute;
+}
+
+#experience {
+  padding: 7% 15%;
+  background-color:#76acbe;
+  position:relative;
+}
+
+.experience-header {
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.experience-sub {
+  color:#d1fef5;
+}
+
+.experience-subber {
+  color:#d1fef5;
+}
+
+.experience-header:hover {
+  color:#c93638;
+}
+
+.experiencelab {
+  text-align: left;
+  padding: 2%;
+  line-height: 2;
+}
+
+li {
+  color:#496c75;
+}
+
+#pictures {
+  text-align: center;
+  background-color:#76acbe;
+}
+
+.carousel-item {
+  padding: 1% 8%;
+}
+
+.aboutme-caption {
+  padding-top: 3%;
+  padding-bottom: 5%;
+  color:#d1fef5;
+}
+
+.aboutme-image {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+/* Pricing Selection */
+
+#skills {
+  padding: 100px;
+  text-align: center;
+}
+
+.skills-header {
+  color: black;
+  text-align: left;
+}
+
+.skills-header:hover {
+  color:#c93638;
+}
+
+.skills-subheader {
+  padding-bottom: 1%;
+  text-align: left;
+}
+
+.skills-column {
+  padding: 3% 2%;
+}
+
+.card-header {
+  text-align: left;
+}
+
+.card-body {
+  text-align: left;
+}
+
+/* Call to Action */
+#contact {
+  background-color: #D9F5F0;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.contact-heading {
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  font-size: 3.5vw;
+  line-height: 1.5;
+  text-align: center;
+  margin-left: 0;
+
+}
+
+.contact-body {
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+/* Footer Section */
+#footer {
+  padding: 3% 5%;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align:center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
+
+@media (max-width: 767px) {
+  .card-header {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-body {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .aboutme-image {
+    width: 200px;
+    height: 250px;
+  }
+}
